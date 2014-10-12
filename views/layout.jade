@@ -2,8 +2,23 @@ doctype html
 html
 	head
 		title= title
+		link(rel='stylesheet', type='text/css' href='http://fonts.googleapis.com/css?family=Lato:100,200,300,400&subset=latin,latin-ext')
 		link(rel='stylesheet', href='/stylesheets/style.css')
+
 	body
 		#all
-			#title Kirill Mangutov
-			block content
+			#header
+				#thin
+
+				#wide.content_holder
+					#title kirill mangutov
+			#thorax
+				#thin.content_holder
+					#nav
+						ul
+							li home
+							li projects
+							li contact
+
+				#wide.content_holder
+					block content
